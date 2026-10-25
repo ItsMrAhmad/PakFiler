@@ -63,7 +63,7 @@ export default function FilerBenefits() {
           <p className="mt-3 text-slate-600 text-base sm:text-lg">
             Becoming an active tax filer saves you tens of thousands of rupees on every banking,
             vehicle, and real estate transaction. File today for only{" "}
-            <strong className="text-emerald-700">Rs. 999</strong> and claim active ATL status.
+            <strong className="text-emerald-700">Rs. 1,999</strong> and claim active ATL status.
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export default function FilerBenefits() {
               className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm px-5 py-2.5 rounded-xl shadow-xs transition-all whitespace-nowrap"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>Become a Filer for Rs. 999</span>
+              <span>Become a Filer for Rs. 1,999</span>
             </a>
           </div>
         </div>

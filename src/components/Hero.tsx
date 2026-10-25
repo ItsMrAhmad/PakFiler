@@ -19,7 +19,7 @@ export default function Hero() {
   
   // Quick service quote selector in hero
   const servicesList = [
-    { id: "salary-1", name: "Salaried Return (1 Source)", market: 1999, our: 999 },
+    { id: "salary-1", name: "Salaried Return (1 Source)", market: 2999, our: 1999 },
     { id: "salary-multi", name: "Salaried Return (Multiple Sources)", market: 2999, our: 1999 },
     { id: "business-sole", name: "Sole Proprietor / Freelancer Return", market: 3499, our: 2499 },
     { id: "business-aop", name: "Partnership / AOP Tax Return", market: 5499, our: 4499 },

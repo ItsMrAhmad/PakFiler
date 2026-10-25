@@ -35,7 +35,7 @@ export default function SalaryCalculator() {
 
   const whatsappMessage = `Hello PakFiler.online, I used your salary tax calculator. My monthly salary is Rs. ${monthlySalary.toLocaleString()} and my estimated monthly tax is Rs. ${Math.round(
     monthlyTax
-  ).toLocaleString()}. I would like to file my tax return for Rs. 999 (Rs. 1,000 OFF special). Please guide me.`;
+  ).toLocaleString()}. I would like to file my tax return for Rs. 1,999 (Rs. 1,000 OFF special). Please guide me.`;
 
   return (
     <section id="calculator" className="py-16 md:py-24 bg-white border-b border-slate-200">
@@ -52,7 +52,7 @@ export default function SalaryCalculator() {
           <p className="mt-3 text-slate-600 text-base sm:text-lg">
             Updated with current FBR Tax Slabs for salaried individuals.
             Calculate your monthly deduction, take-home salary, and let our CAs file your return for just{" "}
-            <strong className="text-emerald-700">Rs. 999</strong> (Save Rs. 1,000!).
+            <strong className="text-emerald-700">Rs. 1,999</strong> (Save Rs. 1,000!).
           </p>
         </div>
 
@@ -184,8 +184,8 @@ export default function SalaryCalculator() {
                 <div className="flex items-baseline justify-between text-xs">
                   <span className="text-emerald-200">Our Filing Fee:</span>
                   <div className="text-right">
-                    <span className="line-through text-slate-400 mr-2 text-xs">Rs. 1,999</span>
-                    <span className="text-amber-300 font-extrabold text-lg">Rs. 999</span>
+                    <span className="line-through text-slate-400 mr-2 text-xs">Rs. 2,999</span>
+                    <span className="text-amber-300 font-extrabold text-lg">Rs. 1,999</span>
                   </div>
                 </div>
 
@@ -196,7 +196,7 @@ export default function SalaryCalculator() {
                   className="w-full inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-sm py-3 px-4 rounded-xl shadow-md transition-all"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  <span>File Return for Rs. 999</span>
+                  <span>File Return for Rs. 1,999</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
 

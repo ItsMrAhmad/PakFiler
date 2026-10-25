@@ -19,8 +19,12 @@ export const metadata: Metadata = {
     "SECP Company Registration",
   ],
   icons: {
-    icon: "/images/logo-circular.jpg",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/images/logo-circular.jpg" },
+    ],
     apple: "/images/logo-circular.jpg",
+    shortcut: "/favicon.ico",
   },
   openGraph: {
     title: "PakFiler.online | Tax Filing & NTN Registration in Pakistan",

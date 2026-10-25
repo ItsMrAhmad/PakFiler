@@ -19,13 +19,21 @@ export default function Footer() {
           {/* Col 1 & 2: Brand & About */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="relative h-12 w-52 overflow-hidden bg-white/95 rounded-lg p-1.5 shadow-sm">
+              <div className="relative h-14 w-14 rounded-full overflow-hidden border-2 border-emerald-500/50 shadow-md shrink-0">
                 <Image
-                  src="/images/logo-horizontal.png"
-                  alt="PakFiler.online"
+                  src="/images/logo-circular.jpg"
+                  alt="PakFiler.online Logo"
                   fill
-                  className="object-contain"
+                  className="object-cover"
                 />
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xl font-black text-white tracking-tight leading-none">
+                  pakfiler<span className="text-emerald-400">.online</span>
+                </span>
+                <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider mt-1">
+                  Tax &amp; Compliance Partner
+                </span>
               </div>
             </div>
 
@@ -63,7 +71,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#services" className="hover:text-emerald-400 transition-colors">
-                  Salaried Tax Return (Rs. 999)
+                  Salaried Tax Return (Rs. 1,999)
                 </a>
               </li>
               <li>
@@ -88,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#services" className="hover:text-emerald-400 transition-colors">
-                  Family Tax Filing (Rs. 999/mbr)
+                  Family Tax Filing (Rs. 1,999/mbr)
                 </a>
               </li>
             </ul>

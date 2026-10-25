@@ -37,7 +37,7 @@ export default function FAQSection() {
     },
     {
       q: "Are there any hidden fees or extra government charges?",
-      a: "None. All our quoted fees (e.g. Rs. 999 for salaried return) are all-inclusive of professional review and FBR submission. For services with mandatory government fees (such as SECP company incorporation or trademark registration), the official government fee is explicitly communicated upfront before you proceed.",
+      a: "None. All our quoted fees (e.g. Rs. 1,999 for salaried return) are all-inclusive of professional review and FBR submission. For services with mandatory government fees (such as SECP company incorporation or trademark registration), the official government fee is explicitly communicated upfront before you proceed.",
     },
   ];
 

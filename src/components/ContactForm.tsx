@@ -7,7 +7,7 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    service: "Salaried Return (Rs. 999)",
+    service: "Salaried Return (Rs. 1,999)",
     message: "",
   });
 
@@ -163,8 +163,8 @@ export default function ContactForm() {
                   onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                   className="w-full bg-white border border-slate-300 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100 rounded-xl px-3 py-2.5 text-sm text-slate-800 outline-hidden cursor-pointer"
                 >
-                  <option value="Salaried Return - 1 Source (Rs. 999)">
-                    Salaried Tax Return (1 Source) — Rs. 999 (Save Rs. 1,000)
+                  <option value="Salaried Return - 1 Source (Rs. 1,999)">
+                    Salaried Tax Return (1 Source) — Rs. 1,999 (Save Rs. 1,000)
                   </option>
                   <option value="Salaried Return - Multiple Sources (Rs. 1,999)">
                     Salaried Return (Multiple Sources) — Rs. 1,999 (Save Rs. 1,000)

@@ -61,14 +61,22 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="relative h-12 w-48 sm:w-56 overflow-hidden">
+            <div className="relative h-12 w-12 sm:h-14 sm:w-14 rounded-full overflow-hidden border-2 border-emerald-500 shadow-xs shrink-0 group-hover:scale-105 transition-transform">
               <Image
-                src="/images/logo-horizontal.png"
-                alt="PakFiler.online - Trusted Tax & Compliance Partner"
+                src="/images/logo-circular.jpg"
+                alt="pakfiler.online logo"
                 fill
                 priority
-                className="object-contain object-left"
+                className="object-cover"
               />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-tight group-hover:text-emerald-700 transition-colors">
+                pakfiler<span className="text-emerald-600">.online</span>
+              </span>
+              <span className="text-[10px] sm:text-[11px] text-slate-500 font-semibold tracking-wider uppercase">
+                Tax &amp; Compliance Partner
+              </span>
             </div>
           </a>
 

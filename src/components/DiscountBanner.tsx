@@ -6,8 +6,8 @@ export default function DiscountBanner() {
   const comparisons = [
     {
       service: "Salaried Return (1 Income Source)",
-      pakfilerPrice: "Rs. 1,999",
-      ourPrice: "Rs. 999",
+      pakfilerPrice: "Rs. 2,999",
+      ourPrice: "Rs. 1,999",
       savings: "Save Rs. 1,000",
     },
     {

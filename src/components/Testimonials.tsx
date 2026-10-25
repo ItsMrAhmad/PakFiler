@@ -8,9 +8,9 @@ export default function Testimonials() {
       name: "Muhammad Usman",
       role: "Software Engineer, Lahore",
       review:
-        "I was previously paying Rs. 2,000 to Rs. 3,500 on other tax websites. Found PakFiler.online and filed my salaried return for only Rs. 999! Sent my salary slips on WhatsApp at 11 AM, and by 4 PM my FBR CPR was issued and ATL active. Unbeatable rate and service.",
+        "I was previously paying higher rates on other tax websites. Found PakFiler.online and filed my salaried return for only Rs. 1,999! Sent my salary slips on WhatsApp at 11 AM, and by 4 PM my FBR CPR was issued and ATL active. Unbeatable rate and service.",
       rating: 5,
-      service: "Salaried Return (Rs. 999)",
+      service: "Salaried Return (Rs. 1,999)",
     },
     {
       name: "Fatima Tariq",
