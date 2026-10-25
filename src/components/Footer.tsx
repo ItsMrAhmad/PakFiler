@@ -163,13 +163,25 @@ export default function Footer() {
             © 2026 <strong>pakfiler.online</strong>. All rights reserved.
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3">
             <span>Registered with FBR</span>
             <span>•</span>
             <span>CA-Certified Quality</span>
             <span>•</span>
             <span className="flex items-center gap-1">
               Proudly Built for Pakistan 🇵🇰
+            </span>
+            <span>•</span>
+            <span>
+              Built by{" "}
+              <a
+                href="https://techsistlabs.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 hover:text-emerald-300 font-semibold underline underline-offset-2 transition-colors"
+              >
+                Techsist Labs
+              </a>
             </span>
           </div>
         </div>
