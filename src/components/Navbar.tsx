@@ -13,7 +13,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Services & Pricing", href: "#services" },
-    { name: "Salary Tax Calculator", href: "#calculator" },
+    { name: "Tax Calculator", href: "#calculator" },
     { name: "NTN Registration", href: "#ntn" },
     { name: "Our Office", href: "#office" },
     { name: "Why Us", href: "#why-us" },
@@ -24,8 +24,8 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-emerald-100 shadow-xs">
       {/* Top Discount & Contact Bar */}
-      <div className="bg-emerald-800 text-white text-xs sm:text-sm py-2 px-4 transition-colors">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
+      <div className="bg-emerald-800 text-white text-xs sm:text-sm py-2 px-4 sm:px-6 lg:px-10 transition-colors">
+        <div className="max-w-[1700px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
           <div className="flex items-center gap-2 font-medium">
             <span className="inline-flex items-center gap-1 bg-amber-400 text-slate-900 text-[11px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
               <Tag className="w-3 h-3" /> Special Offer
@@ -57,10 +57,10 @@ export default function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <a href="#" className="flex items-center gap-3 group">
+      <div className="w-full px-4 sm:px-6 lg:px-10">
+        <div className="max-w-[1700px] mx-auto flex items-center justify-between h-20 gap-4">
+          {/* Logo on Left */}
+          <a href="#" className="flex items-center gap-3 shrink-0 group">
             <div className="relative h-12 w-12 sm:h-14 sm:w-14 rounded-full overflow-hidden border-2 border-emerald-500 shadow-xs shrink-0 group-hover:scale-105 transition-transform">
               <Image
                 src="/images/logo-circular.jpg"
@@ -81,23 +81,23 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-7">
+          <nav className="hidden lg:flex items-center gap-5 xl:gap-7">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-slate-700 hover:text-emerald-700 text-sm font-medium transition-colors"
+                className="text-slate-700 hover:text-emerald-700 text-sm font-semibold whitespace-nowrap transition-colors"
               >
                 {link.name}
               </a>
             ))}
           </nav>
 
-          {/* Desktop Action Buttons */}
-          <div className="hidden sm:flex items-center gap-3">
+          {/* Desktop Action Buttons on Right */}
+          <div className="hidden sm:flex items-center gap-3 shrink-0">
             <a
               href={`tel:${whatsappNumber}`}
-              className="hidden md:flex items-center gap-2 text-slate-700 hover:text-emerald-700 px-3 py-2 text-sm font-medium transition-colors"
+              className="hidden md:flex items-center gap-2 text-slate-700 hover:text-emerald-700 px-3 py-2 text-sm font-semibold whitespace-nowrap transition-colors"
             >
               <Phone className="w-4 h-4 text-emerald-600" />
               <span>0309 4192790</span>
@@ -106,7 +106,7 @@ export default function Navbar() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
+              className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-bold px-4 py-2.5 rounded-xl shadow-xs hover:shadow-md whitespace-nowrap transition-all duration-200 group"
             >
               <MessageCircle className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
               <span>WhatsApp Us</span>
